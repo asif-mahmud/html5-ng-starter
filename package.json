@@ -1,0 +1,49 @@
+{
+  "name": "html5-ng-starter",
+  "version": "0.0.1",
+  "description": "HTML5, AngularJS and SASS starter template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asif-mahmud/html5-ng-starter.git"
+  },
+  "keywords": [
+    "HTML5",
+    "AngularJS",
+    "SASS",
+    "Template"
+  ],
+  "author": "Asif Mahmud Shimon",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/asif-mahmud/html5-ng-starter/issues"
+  },
+  "homepage": "https://github.com/asif-mahmud/html5-ng-starter#readme",
+  "dependencies": {
+    "angular": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "require-dir": "*",
+    "gulp-ng-annotate": "*",
+    "gulp-order": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "autoprefixer": "*",
+    "gulp-postcss": "*",
+    "postcss-flexboxfixer": "*",
+    "gulp-clean-css": "*",
+    "gulp-uglify": "*",
+    "gulp-load-plugins": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-jshint": "*",
+    "gulp-clean": "*",
+    "run-sequence": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "browser-sync": "*"
+  }
+}
