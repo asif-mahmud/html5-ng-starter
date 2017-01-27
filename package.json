@@ -1,6 +1,6 @@
 {
   "name": "html5-ng-starter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "HTML5, AngularJS and SASS starter template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/asif-mahmud/html5-ng-starter#readme",
   "dependencies": {
-    "angular": "*"
+    "angular": "*",
+    "angular-mocks": "*"
   },
   "devDependencies": {
     "gulp": "*",
     "require-dir": "*",
-    "gulp-ng-annotate": "*",
-    "gulp-order": "*",
+    "gulp-angular-filesort": "*",
     "gulp-concat": "*",
     "gulp-sass": "*",
     "autoprefixer": "*",
@@ -44,6 +44,11 @@
     "run-sequence": "*",
     "jshint": "*",
     "jshint-stylish": "*",
-    "browser-sync": "*"
+    "browser-sync": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-jasmine": "*",
+    "protractor": "*"
   }
 }

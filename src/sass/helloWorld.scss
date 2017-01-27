@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+
+  .hello-world {
+    text-align: center;
+    input[type="text"] {
+      line-height: 2em;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px solid darkcyan;
+    }
+  }
+}
