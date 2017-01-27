@@ -21,6 +21,9 @@ Clone this repository. And run `npm install` inside it.
 
 ##Version History
 
+###Version 1.0.1
+- Partial templates go into respective module structure.
+
 ###Version 1.0.0
 - First working version with proper `gulp` tasks.
 - A `HelloWorld` app by `AngularJS`.

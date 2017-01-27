@@ -7,9 +7,8 @@ var helloWorldController = function ($http) {
 
 angular.module('helloWorld')
 .component('helloWorld', {
-    templateUrl: '/apps/partials/helloworld.html',
+    templateUrl: '/apps/partials/helloworld/helloworld.html',
     controller: [
-        '$http',
         helloWorldController
     ]
 });
