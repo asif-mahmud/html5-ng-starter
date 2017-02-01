@@ -6,6 +6,7 @@ Starter template for `HTML5`, `AngularJS` and `SASS`.
 
 ##Requirements
 
+- [CookieCutter](https://github.com/audreyr/cookiecutter)
 - [NodeJS](https://nodejs.org/)
 - [Gulp-Cli](http://gulpjs.com/)
 
@@ -21,10 +22,16 @@ Clone this repository. And run `npm install` inside it.
 
 ##Version History
 
+###Version 2.0.0
+
+- Using `cookiecutter` for project templating.
+
 ###Version 1.0.1
+
 - Partial templates go into respective module structure.
 
 ###Version 1.0.0
+
 - First working version with proper `gulp` tasks.
 - A `HelloWorld` app by `AngularJS`.
 - Sample `SASS` source for `HelloWorld`.
@@ -33,4 +40,5 @@ Clone this repository. And run `npm install` inside it.
 ***TODO***: Partial template naming is still restricted. 
 
 ###Version 0.0.1
+
 - Git inititalization.
