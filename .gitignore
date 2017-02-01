@@ -53,5 +53,5 @@ jspm_packages
 *.css.map
 .gitignore
 .idea/
-example/
+examples/
 dist/

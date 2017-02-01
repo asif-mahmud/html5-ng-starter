@@ -1,0 +1,54 @@
+{
+  "name": "{{cookiecutter.project_name}}",
+  "version": "{{cookiecutter.project_version}}",
+  "description": "{{cookiecutter.project_description}}",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+{%- if cookiecutter.git_repo %}
+  "repository": {
+    "type": "git",
+    "url": "git+https://{{cookiecutter.git_host}}/{{cookiecutter.git_repo}}.git"
+  },
+  "bugs": {
+    "url": "https://{{cookiecutter.git_host}}/{{cookiecutter.git_repo}}/issues"
+  },
+  "homepage": "https://{{cookiecutter.git_host}}/{{cookiecutter.git_repo}}#README",
+{% endif %}
+  "keywords": [
+    "{{cookiecutter.project_name}}",
+    "{{cookiecutter.project_description}}"
+  ],
+  "author": "{{cookiecutter.author}}",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "angular": "*",
+    "angular-mocks": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "require-dir": "*",
+    "gulp-angular-filesort": "*",
+    "gulp-concat": "*",
+    "gulp-sass": "*",
+    "autoprefixer": "*",
+    "gulp-postcss": "*",
+    "postcss-flexboxfixer": "*",
+    "gulp-clean-css": "*",
+    "gulp-uglify": "*",
+    "gulp-load-plugins": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-jshint": "*",
+    "gulp-clean": "*",
+    "run-sequence": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "browser-sync": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-jasmine": "*",
+    "protractor": "*"
+  }
+}
